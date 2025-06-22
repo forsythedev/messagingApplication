@@ -130,7 +130,10 @@ gcloud container clusters get-credentials kafka-cluster --zone=us-central1-a --p
 
 ### 4.3. Define a High-Performance StorageClass (Recommended)
 
+- I saved all of the files from this repo in a storage bucket called _messagingapp_. Copy your files over then start applying the yaml files.
+
 ```bash
+gsutil cp -r gs://messagingapp/ .
 kubectl apply -f ssd-storageclass.yaml
 ```
 
