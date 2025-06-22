@@ -134,6 +134,7 @@ gcloud container clusters get-credentials kafka-cluster --zone=us-central1-a --p
 
 ```bash
 gsutil cp -r gs://messagingapp/ .
+cd messagingapp
 kubectl apply -f ssd-storageclass.yaml
 ```
 
