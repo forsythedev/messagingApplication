@@ -117,6 +117,7 @@ gcloud container clusters create kafka-cluster \
     --zone=us-central1-a \
     --enable-autoscaling --min-nodes=3 --max-nodes=10 \
     --project YOUR_GCP_PROJECT_ID
+    --disk-size=50
 ```
 
 Wait for the cluster creation to complete. This may take several minutes.
