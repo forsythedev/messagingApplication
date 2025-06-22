@@ -1,0 +1,6 @@
+replicaCount: 3
+
+persistence:
+  enabled: true
+  storageClass: "ssd-storage"
+  size: 100Gi
