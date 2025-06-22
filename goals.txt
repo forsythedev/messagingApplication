@@ -1,0 +1,3 @@
+- get this started
+- then have users and save the users to a db
+- save the messages for each user
